@@ -28,36 +28,34 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 1rem;
-    background-color: #dfffe2;
+    padding: 2rem 1rem;
+    background-color: #000;
+    color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-
-    > a {
-        color: black;
+    a {
+        color: #fff;
         text-decoration: none;
     }
 }
 
 #layout-header nav a {
-    margin-left: 1rem;
-    color: black;
+    margin-left: 3rem;
+    color: #fff;
     text-decoration: none;
-
-   
 }
 
-main {
-    flex-grow: 1;
-    padding: 1rem;
+.nav{
+    margin-left: 2rem;
+    
 }
-
 footer {
     font-family: 'Playfair Display', serif;
-    font-weight: 900;
+    font-weight: 500;
     margin-top: 24px;
     font-size: 15px;
     padding: 1.5rem;
-    background-color: #dfffe2;
+    background-color: #000;
+    color: #fff;
     text-align: center;
 }
 
@@ -98,10 +96,10 @@ footer {
             font-weight: 700;
         }
         .ver-detalle {
-            background-color: #dfffe2;
+            background-color: #000;
             font-weight: 700;
             text-decoration: none;
-            color: black;
+            color: #fff;
             padding: 0.4rem 1rem;
             border-radius: 3px;
             box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
@@ -154,9 +152,9 @@ button {
     margin-top: 10px;
     margin-right: 6px;
     margin-bottom: 6px;
-    background-color: #dfffe2;
+    background-color: #000;
     text-decoration: none;
-    color: black;
+    color: #fff;
     padding: 0.4rem 1rem;
     border-radius: 3px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
