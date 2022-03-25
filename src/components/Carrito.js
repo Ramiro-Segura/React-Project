@@ -14,9 +14,9 @@ const Carrito = () => {
           <h1>Carrito</h1>
           {carrito.map(producto => (
               <div key={producto.id}>
-                  <p>{producto.nombre}</p>
-                  <p>{producto.cantidad} x {producto.precio}</p>
-                  <p>Total: {producto.cantidad * producto.precio}</p>
+                  <p>{producto.name}</p>
+                  <p>{producto.cantidad} x {producto.price}</p>
+                  <p>Total: {producto.cantidad * producto.price}</p>
                   <button onClick={handleClick}>Borrar</button>
               </div>
           ))}
