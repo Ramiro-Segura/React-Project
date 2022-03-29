@@ -3,20 +3,23 @@ import { contexto } from "../context/CartContext"
 
 const Carrito = () => {
 
-  const {carrito} = useContext(contexto)
+  const {carrito, borrarDelCarrito} = useContext(contexto)
 
   const handleClick = () => {
-      
   }
 
   return (
-      <div>
+      <div id="carrito">
           <h1>Carrito</h1>
           {carrito.map(producto => (
-              <div key={producto.id}>
-                  <p>{producto.name}</p>
-                  <p>{producto.cantidad} x {producto.price}</p>
-                  <p>Total: {producto.cantidad * producto.price}</p>
+              <div key={producto.id} className="precios">
+                  <p>{producto.title}</p>
+                  <br/>
+                  <img src={producto.image}/>
+                  <br/>
+                  <p>{producto.cantidad} x ${producto.price}</p>
+                  <br/>
+                  <p>Total: ${producto.cantidad * producto.price}</p>
                   <button onClick={handleClick}>Borrar</button>
               </div>
           ))}

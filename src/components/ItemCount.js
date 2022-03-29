@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { toast } from "react-toastify"
 
 const Contador = ({initial, stock,onAdd}) => {
 
@@ -20,17 +21,18 @@ const Contador = ({initial, stock,onAdd}) => {
         setEstado(1)
     }
     
-    const btnAgregar = () => {
+    const btnAgregarAlCarrito = () => {
+        toast.success("Agregado con exito al carrito",{position: "top-right",autoClose: 800,})
         onAdd(estado)
     }
     
     return (
         <div id="botones">
             <p>Cantidad seleccionada: {estado}</p>
-            <button onClick={btnSumar}>Sumar</button>
-            <button onClick={btnRestar}>Restar</button>
-            <button onClick={btnRestablecer}>Restablecer</button>
-            <button onClick={btnAgregar}>Agregar al carrito</button>
+            <button onClick={btnSumar}>Sumar cantidad</button>
+            <button onClick={btnRestar}>Restar cantidad</button>
+            <button onClick={btnRestablecer}>Restablecer cantidad</button>
+            <button onClick={btnAgregarAlCarrito}>Agregar al carrito</button>
         </div>
     )
 }

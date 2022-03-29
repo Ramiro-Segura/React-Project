@@ -21,9 +21,16 @@ const ItemDetail = ({item}) => {
                 <h3>{item.title}</h3>
                 <p>${item.price}</p>
                 <p>{item.description}</p>
+                <ItemCount stock={10} initial={1} onAdd={onAdd}/>
+                <div className='ir__al__carrito'>
+                <Link to="/carrito">
+                    Ir al carrito
+                    <span className="material-icons">
+                        shopping_cart
+                    </span>
+                </Link>
+                </div>
             </div>
-            <ItemCount stock={10} initial={1} onAdd={onAdd}/>
-            <Link to="/carrito">carrito</Link>
         </article>
     )
 }

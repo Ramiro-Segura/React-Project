@@ -45,7 +45,9 @@ const MiProvider = ({ children }) => {
     const valorDelContexto = {
         carrito: carrito,  
         addItem: addItem,
-        calcCantidad: calcCantidad
+       
+        calcCantidad: calcCantidad,
+        borrarDelCarrito
     }
 
     return (
@@ -56,3 +58,4 @@ const MiProvider = ({ children }) => {
 }
 
 export default MiProvider
+
