@@ -10,7 +10,6 @@ const ItemDetail = ({item}) => {
     const [seleccionado,setSeleccionado] = useState(false)
 
     const onAdd = (cant) => {
-        console.log("Agregar al carrito",cant)
         setSeleccionado(cant);        
         addItem(item, cant); 
     }
@@ -23,12 +22,12 @@ const ItemDetail = ({item}) => {
                 <p>{item.description}</p>
                 <ItemCount stock={10} initial={1} onAdd={onAdd}/>
                 <div className='ir__al__carrito'>
-                <Link to="/carrito">
-                    Ir al carrito
-                    <span className="material-icons">
-                        shopping_cart
-                    </span>
-                </Link>
+                    <Link to="/carrito">
+                        Ir al carrito
+                        <span className="material-icons">
+                            shopping_cart
+                        </span>
+                    </Link>
                 </div>
             </div>
         </article>

@@ -28,12 +28,7 @@ const MiProvider = ({ children }) => {
     }
 
     const borrarDelCarrito = (id) => {
-        
-    }
-
-    const limpiarCarrito = () => {
-        
-        setCarrito([])
+        setCarrito(carrito.filter((prod) => prod.id !== id));
     }
 
     const calcCantidad = () =>{
@@ -41,13 +36,26 @@ const MiProvider = ({ children }) => {
         carrito.forEach(item => cantidadTotal += item.cantidad)
         return cantidadTotal;
     }
+    
+    const calcularTotal = () =>{
+        let totalCarrito = 0;
+        carrito.forEach((item) => {
+            totalCarrito += item.price * item.cantidad;
+        });
+        return totalCarrito;
+    }
+    
+    const limpiarCarrito = () => {
+        setCarrito([])
+    }
 
     const valorDelContexto = {
         carrito: carrito,  
-        addItem: addItem,
-       
-        calcCantidad: calcCantidad,
-        borrarDelCarrito
+        addItem,
+        calcCantidad,
+        calcularTotal,
+        borrarDelCarrito,
+        limpiarCarrito
     }
 
     return (
