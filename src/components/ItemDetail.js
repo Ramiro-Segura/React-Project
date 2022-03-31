@@ -7,7 +7,7 @@ import { contexto } from "../context/CartContext"
 
 const ItemDetail = ({item}) => {
     const { addItem } = useContext(contexto);
-    const [seleccionado,setSeleccionado] = useState(false)
+    const [setSeleccionado] = useState(false)
 
     const onAdd = (cant) => {
         setSeleccionado(cant);        

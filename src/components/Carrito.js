@@ -7,7 +7,7 @@ const Carrito = () => {
         if (carrito.length === 0) {
         return (
             <div className="ir__al__home">
-                <h1>Aún no hay productos agregados</h1>
+                <h1>El carrito esta vacio!</h1>
                <Link to="/">Volver a inicio</Link>
             </div>
         );
@@ -21,16 +21,15 @@ const Carrito = () => {
                   <br/>
                   <img src={producto.image}/>
                   <br/>
-                  <p>{producto.cantidad} x ${producto.price}</p>
+                  <p>{producto.cantidad} Unidad(es) x ${producto.price}</p>
                   <br/>
                   <p>Total: ${producto.cantidad * producto.price}</p>
                   <button onClick={() => borrarDelCarrito(producto.id)}>Eliminar producto(s)</button>
-                  
               </div>
           ))}
           <hr/>
+          <button onClick={limpiarCarrito} className="vaciar__carrito">Vaciar carrito</button>
           <p className="subtotal">Subtotal: ${calcularTotal()}</p>
-          <button onClick={limpiarCarrito}>Vaciar carrito</button>
       </div>
   )
 }

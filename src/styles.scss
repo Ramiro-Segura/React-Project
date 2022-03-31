@@ -1,4 +1,5 @@
 * {
+    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,7 +8,10 @@
 html,
 body,
 #root {
+    margin-bottom: auto;
     height: 100vh;
+    min-height: 100%;
+    position: relative;
     font-family: 'Lato', sans-serif;
 }
 h1{
@@ -191,4 +195,8 @@ button {
 .subtotal{
     font-size: 24px;
     font-weight: 800;
+}
+.vaciar__carrito{
+    margin-left: 15px;
+    margin-top: 20px;
 }

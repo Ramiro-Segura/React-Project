@@ -8,6 +8,7 @@ const Item = ({ producto }) => {
             <p className="precio">Precio : ${producto.price}</p>
             <Link className="ver-detalle" to={`/producto/${producto.id}`}>Ver detalle</Link>
         </article>
+        
     )
 }
 export default Item

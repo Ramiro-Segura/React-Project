@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
 import { BrowserRouter } from "react-router-dom";
@@ -15,7 +15,7 @@ const App = () => {
     return (
     <BrowserRouter>
         <MiProvider>
-            <Header/>
+            <NavBar/>
             <Routes>
                 <Route path="/" element={<ItemListContainer/>}/>
                 <Route path="/categoria/:idCategoria" element={<ItemListContainer/>}/>

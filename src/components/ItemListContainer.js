@@ -2,8 +2,8 @@ import ItemList from "./ItemList"
 import { useEffect, useState } from "react"
 import { toast } from "react-toastify"
 import { useParams } from "react-router-dom"
-
-
+import { db } from "../Firebase"
+import { collection, getDocs, query , where } from "firebase/firestore"
 
 const ItemListContainer = () => {
 
@@ -12,22 +12,30 @@ const ItemListContainer = () => {
     const {idCategoria} = useParams()
     
     useEffect(() => {
-        
-        fetch("https://fakestoreapi.com/products")
        
-        .then((response)=>{
-            return response.json()
-        })
-        .then((resultado)=>{
-            setProductos(resultado)
-        })
-        .catch(()=>{
-            toast.error("Error al cargar los productos")
-        })
-        .finally(()=>{
-            setLoading(false)
-        })
-        
+        if(!idCategoria){
+
+            const productosCollection = collection(db, "products")
+            const pedido = getDocs(productosCollection)
+    
+            pedido
+                .then(res => setProductos(res.docs.map(doc => doc.data())))
+                .catch(() => toast.error("Error al cargar los productos"))
+                .finally(() => setLoading(false))
+
+        }else{
+
+            const productosCollection = collection(db, "products")
+            const filtro = query(productosCollection,where("category","==",idCategoria))
+            const pedido = getDocs(filtro)
+
+            pedido
+                .then(res => setProductos(res.docs.map(doc => doc.data())))
+                .catch(() => toast.error("Error al cargar los productos"))
+                .finally(() => setLoading(false))
+
+        }
+
     },[idCategoria])
 
     if(loading){
