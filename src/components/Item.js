@@ -1,14 +1,17 @@
 import { Link } from "react-router-dom"
+import { Container } from "react-bootstrap"
 
-const Item = ({ producto }) => {
+const Item = ({ producto}) => {
     return (
-        <article>
-            <h2>{producto.title}</h2>
-            <img src={producto.image}/>
-            <p className="precio">Precio : ${producto.price}</p>
-            <Link className="ver-detalle" to={`/producto/${producto.id}`}>Ver detalle</Link>
-        </article>
-        
+        <Container>
+            <article>
+                <img src={producto.imageUrl}/>
+                <hr/>
+                <h2>{producto.nombre}</h2>
+                <h5>${producto.precio}</h5>
+               <Link className="ver-detalle" to={`/producto/${producto.id}`}><button>Ver detalle</button></Link>
+            </article>
+        </Container>
     )
 }
 export default Item

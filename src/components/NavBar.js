@@ -4,17 +4,15 @@ import CartWidget from "./CartWidget";
 
 const NavBar = () => {
     return (
-        <header id="layout-header" className='header'>
+        <header id="layout-header">
             <Link to="/">
-                <h1 className='header__title'>All Market</h1>
+                <h1 className="titulo">Nak Mangas</h1>
             </Link>
-            <NavLink to="/categoria/electronica" className='nav__link'>Electronica</NavLink>
-            <NavLink to="/categoria/joyeria" className='nav__link'>Joyeria</NavLink>
-            <NavLink to="/categoria/ropamujer" className='nav__link'>Ropa Mujer</NavLink>
-            <NavLink to="/categoria/ropahombre" className='nav__link'>Ropa Hombre</NavLink>
+            <NavLink to="/editorial/ivrea" className='nav__link'>Ivrea</NavLink>
+            <NavLink to="/editorial/ovnipress" className='nav__link'>OvniPress</NavLink>
+            <NavLink to="/editorial/paninimanga" className='nav__link'>Panini Manga</NavLink>
             <CartWidget/> 
         </header>
     );
 }
-
 export default NavBar;

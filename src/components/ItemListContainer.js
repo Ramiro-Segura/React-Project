@@ -7,42 +7,42 @@ import { collection, getDocs, query , where } from "firebase/firestore"
 
 const ItemListContainer = () => {
 
-    const [loading, setLoading] = useState(true)
-    const [productos, setProductos] = useState([])
-    const {idCategoria} = useParams()
-    
-    useEffect(() => {
-       
-        if(!idCategoria){
+  const [loading, setLoading] = useState(true)
+  const [productos, setProductos] = useState([])
+  const {idEditorial} = useParams()
+  
+  useEffect(() => {
+     
+      if(!idEditorial){
 
-            const productosCollection = collection(db, "products")
-            const pedido = getDocs(productosCollection)
-    
-            pedido
-                .then(res => setProductos(res.docs.map(doc => doc.data())))
-                .catch(() => toast.error("Error al cargar los productos"))
-                .finally(() => setLoading(false))
+          const productosCollection = collection(db, "products")
+          const pedido = getDocs(productosCollection)
+  
+          pedido
+              .then(res => setProductos(res.docs.map(doc => doc.data())))
+              .catch(() => toast.error("Error al cargar los productos"))
+              .finally(() => setLoading(false))
 
-        }else{
+      }else{
 
-            const productosCollection = collection(db, "products")
-            const filtro = query(productosCollection,where("category","==",idCategoria))
-            const pedido = getDocs(filtro)
+          const productosCollection = collection(db, "products")
+          const filtro = query(productosCollection,where("editorial","==",idEditorial))
+          const pedido = getDocs(filtro)
 
-            pedido
-                .then(res => setProductos(res.docs.map(doc => doc.data())))
-                .catch(() => toast.error("Error al cargar los productos"))
-                .finally(() => setLoading(false))
+          pedido
+              .then(res => setProductos(res.docs.map(doc => doc.data())))
+              .catch(() => toast.error("Error al cargar los productos"))
+              .finally(() => setLoading(false))
 
-        }
+      }
 
-    },[idCategoria])
+  },[idEditorial])
 
-    if(loading){
-        return <h1>Cargando...</h1>
-    }else{
-        return <ItemList productos={productos}/>
-    }
+  if(loading){
+      return <h1>Cargando...</h1>
+  }else{
+      return <ItemList productos={productos}/>
+  }
 }
 
 export default ItemListContainer

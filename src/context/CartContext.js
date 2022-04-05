@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-
+import { toast } from "react-toastify";
 export const contexto = createContext()
 
 const { Provider } = contexto
@@ -28,6 +28,7 @@ const MiProvider = ({ children }) => {
     }
 
     const borrarDelCarrito = (id) => {
+        toast.info("Producto eliminado",{position: "top-right",autoClose: 1000,})
         setCarrito(carrito.filter((prod) => prod.id !== id));
     }
 
@@ -40,12 +41,13 @@ const MiProvider = ({ children }) => {
     const calcularTotal = () =>{
         let totalCarrito = 0;
         carrito.forEach((item) => {
-            totalCarrito += item.price * item.cantidad;
+            totalCarrito += item.precio * item.cantidad;
         });
         return totalCarrito;
     }
     
     const limpiarCarrito = () => {
+        toast.warn("No hay producto(s) en el carrito",{position: "top-right",autoClose: 1000,})
         setCarrito([])
     }
 

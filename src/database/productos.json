@@ -1,0 +1,333 @@
+[
+    {
+        "id": 1,
+        "nombre": "Vinland Saga #1",
+        "precio": 1090,
+        "editorial":"ovnipress",
+        "imageUrl": "/mangas/vinlandsaga/n1.png",
+        "descripcion": "En el siglo XI, un joven guerrero llamado Thorfinn se une a una banda de mercenarios normandos liderada por Askeladd. Thorfinn solo tiene una cosa en mente: vengar la muerte de su padre, el poderoso guerrero Thors, quien fue asesinado por Askeladd. Para ganarse el derecho a un duelo, nuestro protagonista debe ayudar a su enemigo jurado a cosechar victorias, y así ambos se verán envueltos en una violenta guerra por la corona, todo esto enmarcado por la leyenda de la tierra prometida: la pacífica y eterna Vinland.Corresponde a Vinland Saga vol. 1-2."  
+    }
+    ,
+    {
+        "id": 2,
+        "nombre": "Vinland Saga #2",
+        "precio": 1090,
+        "editorial":"ovnipress",
+        "imageUrl": "/mangas/vinlandsaga/n2.png",
+        "descripcion": "Luego de la muerte de su padre a manos de Askeladd, Thorfinn se encaminó en su viaje de venganza. Pero, ¿cómo acabó uniéndose al grupo de Askeladd? ¡Esta historia de vikingos se acelera hasta regresar a la juventud de Thorfinn!.Corresponde a Vinland Saga vol. 3-4."  
+    },
+    {
+        "id": 3,
+        "nombre": "Tokyo Revengers #1",
+        "precio": 600,
+        "editorial":"ivrea",
+        "imageUrl": "/mangas/tokyorevengers/n1.jpg",
+        "descripcion": "Resignado a vivir su vida de mierda, Takemichi Hangaki se sorprende con la noticia de que Hinata Tachibana fue asesinada por una especie de mafia, la Tokyo Manji. Cuando pensaba que no podía empeorar aún más, repentinamente alguien lo empuja a las vías, pero acto seguido viaja en el tiempo y despierta doce años atrás, durante su etapa en la escuela secundaria cuando era un intento de patotero. A partir de ahí, y tras chequear que lo que hace durante su regreso al pasado sí cambia lo que pasa en el futuro, Takemichi empieza su desesperada carrera por corregir todo lo que lo volvió un fracasado de adulto. El tema es que si bien tiene un par de golpes de suerte, hay cosas con las que no va a poder lidiar y que no va a poder evitar que ocurran."  
+    },
+    {
+        "id": 4,
+        "nombre": "Tokyo Revengers #2",
+        "precio": 600,
+        "editorial":"ivrea",
+        "imageUrl": "/mangas/tokyorevengers/n2.jpg",
+        "descripcion": "Resignado a vivir su vida de mierda, Takemichi Hangaki se sorprende con la noticia de que Hinata Tachibana fue asesinada por una especie de mafia, la Tokyo Manji. Cuando pensaba que no podía empeorar aún más, repentinamente alguien lo empuja a las vías, pero acto seguido viaja en el tiempo y despierta doce años atrás, durante su etapa en la escuela secundaria cuando era un intento de patotero. A partir de ahí, y tras chequear que lo que hace durante su regreso al pasado sí cambia lo que pasa en el futuro, Takemichi empieza su desesperada carrera por corregir todo lo que lo volvió un fracasado de adulto. El tema es que si bien tiene un par de golpes de suerte, hay cosas con las que no va a poder lidiar y que no va a poder evitar que ocurran."  
+    },
+    {
+        "id": 5,
+        "nombre": "Tokyo Revengers #3",
+        "precio": 600,
+        "editorial":"ivrea",
+        "imageUrl": "/mangas/tokyorevengers/n3.jpg",
+        "descripcion": "Resignado a vivir su vida de mierda, Takemichi Hangaki se sorprende con la noticia de que Hinata Tachibana fue asesinada por una especie de mafia, la Tokyo Manji. Cuando pensaba que no podía empeorar aún más, repentinamente alguien lo empuja a las vías, pero acto seguido viaja en el tiempo y despierta doce años atrás, durante su etapa en la escuela secundaria cuando era un intento de patotero. A partir de ahí, y tras chequear que lo que hace durante su regreso al pasado sí cambia lo que pasa en el futuro, Takemichi empieza su desesperada carrera por corregir todo lo que lo volvió un fracasado de adulto. El tema es que si bien tiene un par de golpes de suerte, hay cosas con las que no va a poder lidiar y que no va a poder evitar que ocurran."  
+    },
+    {
+        "id": 6,
+        "nombre": "Tokyo Revengers #4",
+        "precio": 600,
+        "editorial":"ivrea",
+        "imageUrl": "/mangas/tokyorevengers/n4.jpg",
+        "descripcion": "Resignado a vivir su vida de mierda, Takemichi Hangaki se sorprende con la noticia de que Hinata Tachibana fue asesinada por una especie de mafia, la Tokyo Manji. Cuando pensaba que no podía empeorar aún más, repentinamente alguien lo empuja a las vías, pero acto seguido viaja en el tiempo y despierta doce años atrás, durante su etapa en la escuela secundaria cuando era un intento de patotero. A partir de ahí, y tras chequear que lo que hace durante su regreso al pasado sí cambia lo que pasa en el futuro, Takemichi empieza su desesperada carrera por corregir todo lo que lo volvió un fracasado de adulto. El tema es que si bien tiene un par de golpes de suerte, hay cosas con las que no va a poder lidiar y que no va a poder evitar que ocurran."  
+    },
+    {
+        "id": 7,
+        "nombre": "Tokyo Revengers #5",
+        "precio": 600,
+        "editorial":"ivrea",
+        "imageUrl": "/mangas/tokyorevengers/n5.jpg",
+        "descripcion": "Resignado a vivir su vida de mierda, Takemichi Hangaki se sorprende con la noticia de que Hinata Tachibana fue asesinada por una especie de mafia, la Tokyo Manji. Cuando pensaba que no podía empeorar aún más, repentinamente alguien lo empuja a las vías, pero acto seguido viaja en el tiempo y despierta doce años atrás, durante su etapa en la escuela secundaria cuando era un intento de patotero. A partir de ahí, y tras chequear que lo que hace durante su regreso al pasado sí cambia lo que pasa en el futuro, Takemichi empieza su desesperada carrera por corregir todo lo que lo volvió un fracasado de adulto. El tema es que si bien tiene un par de golpes de suerte, hay cosas con las que no va a poder lidiar y que no va a poder evitar que ocurran."  
+    },
+    {
+        "id": 8,
+        "nombre": "Attack on Titan #34",
+        "precio": 900,
+        "editorial":"ovnipress",
+        "imageUrl": "/mangas/attackontitan/n34.png",
+        "descripcion": "TOMO FINAL - El niño que alguna vez vivió con miedo a los titanes dentro de los muros se volvió la mayor amenaza de la historia. Armin, Mikasa, Levi y el resto de los sobrevivientes alcanzan a un Eren completamente desatado y enfocado en acabar con la humanidad, mientras que la sombra de Ymir lo observa todo en silencio."  
+    },
+    {
+        "id": 9,
+        "nombre": "Monster (edicion kanzenban) #1",
+        "precio": 2250,
+        "editorial":"ivrea",
+        "imageUrl": "/mangas/monster/n1.jpg",
+        "descripcion": "Kenzo Tenma es un cirujano japonés que vivía en Alemania ganando chapa y prestigio hasta que se cruza en su camino Johan Liebert, un niño al que elige salvarle la vida en vez de a un importante político, lo que le cuesta mucho más que el trabajo. Al poco tiempo, una serie de misteriosos asesinatos en el hospital que parecen beneficiar a Tenma hacen que el metódico inspector Lunge lo tenga como principal sospechoso. Nueve años más tarde, Tenma se ve envuelto en una nueva serie de crímenes que lo llevarán a enfrentarse con sus decisiones del pasado: alguien está asesinando ancianos en sus hogares y la única pista surge de uno de los sospechosos que termina internado donde trabaja Tenma. Este, traumatizado, sólo habla de un “monstruo” que asesinó a sus compañeros… ¡y resulta ser el chico que salvó una década atras, convertido en asesino serial! Tenma queda en shock y deberá enfrentar las consecuencias de sus acciones. Así comienza una desesperada cacería por Europa que llevará a Tenma a desentrañar una profunda conspiración que amenaza con sacudir a todo el país."  
+    },
+    {
+        "id": 10,
+        "nombre": "Jujutsu Kaisen #0",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n01.jpg",
+        "descripcion": "Yuta Okkotsu es un estudiante de preparatoria poseído por Rika, un espíritu maldito. Después de causar un incidente con unos compañeros, Satoru Gojo decide traerlo a la Escuela de Bachillerato Técnico de Brujería de Tokio para que aprenda a controlar la maldición. Va haciendo amistad con sus compañeros de primer año, Maki, Toge y Panda, con quienes aprende a exorcizar maldiciones. Pero, de repente, se aparece Suguru Geto, un hechicero maléfico, con la intención de apoderarse de Rika, la maldición de Yuta."  
+    },
+    {
+        "id": 11,
+        "nombre": "Jujutsu Kaisen #1",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n1.jpg",
+        "descripcion": "Yuji Itadori, es un estudiante de preparatoria que tiene una fuerza y capacidad física excepcionales, y que tiene el hábito de visitar a su abuelo enfermo, internado en un hospital. Sin embargo, un día se rompe el sello de un ''objeto maldito'' que dormía en su escuela, y empiezan a aparecer monstruos. Yuji se mete en la escuela para rescatar a sus compañeros atrapados, pero..."  
+    },
+    {
+        "id": 12,
+        "nombre": "Jujutsu Kaisen #2",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n2.png",
+        "descripcion": "En medio de la misión, Yuji cambia de lugar con Sukuna, quien derrota con facilidad a la maldición de grado especial. Sin embargo, este se sale de control y ataca a Fushiguro. Sukuna se arranca él mismo el corazón para que Yuji no pueda regresar, pero aun así vuelve para salvar a Fushiguro, y muere. Gojo cree que esa misión fue un plan de los altos mandos para deshacerse de una vez de Sukuna. De vuelta en la escuela, los de segundo invitan a Fushiguro y Kugisaki a un evento con los del plantel de Kioto, en parte para que se sobrepongan del fallecimiento de Yuji. En otro lado, otras maldiciones de grado especial comienzan a conspirar contra Gojo."  
+    },
+    {
+        "id": 13,
+        "nombre": "Jujutsu Kaisen #3",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n3.jpg",
+        "descripcion": "Fushiguro y Nobara tienen un enfrentamiento con los del plantel de Kioto, pero estos se retiran cuando los compañeros de segundo se presentan. No pinta bien para el evento de los dos planteles. Por otro lado, tres jóvenes mueren deformes en un cine a manos de Mahito, mientras Junpei, un chico normal, es testigo. Itadori y Nanami, un hechicero de primer grado, investigan el caso, y el rastro los lleva hasta Mahito y Junpei, quien manifiesta poder maldito."  
+    },
+    {
+        "id": 14,
+        "nombre": "Jujutsu Kaisen #4",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n4.jpg",
+        "descripcion": "Mientras investiga un extraño conjunto de muertes misteriosas, Itadori conoce a Junpei, un niño con problemas que a menudo es acosado en la escuela. Sin embargo, Junpei también se hace amigo del culpable del sangriento incidente: ¡Mahito, un travieso espíritu maldito! Mahito one en marcha un plan tortuoso que involucra a Junpei, con la esperanza de atrapar a Itadori también."  
+    },
+    {
+        "id": 15,
+        "nombre": "Jujutsu Kaisen #5",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n5.jpg",
+        "descripcion": "¡EMPIEZA LA COMPETICIÓN POR EQUIPOS ENTRE LOS INSTITUTOS DE KIOTO Y TOKIO!La reunión de intercambio con el instituto hermano de Kioto ha comenzado. El primer día se lleva a cabo la competición por equipos, y la victoria será para el equipo que purifique primero a la maldición de categoría dos que hay en el área delimitada. Sin embargo, un beligerante Tôdô ataca al equipo de Tokio nada más empezar, y así comienza su enfrentamiento con Itadori..."  
+    },
+    {
+        "id": 16,
+        "nombre": "Jujutsu Kaisen #6",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n6.jpg",
+        "descripcion": "El evento de intercambio es interrumpido por el ataque de los espíritus malditos de grado especial. Fushiguro y Maki se enfrentan a Hanami, pero su resistencia y poder de invocación de plantas son demasiado para ellos. Ahí se aparecen Todo e Itadori, quien arremete contra la maldición con una nueva y poderosa técnica. Los maestros se apresuran a salvarlos, pero unos hechiceros maléficos se interponen. ¿Cuál es su objetivo en la Escuela de Brujería?"  
+    },
+    {
+        "id": 17,
+        "nombre": "Jujutsu Kaisen #7",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n7.jpg",
+        "descripcion": "Gojo logra ahuyentar a Hanami del evento de intercambio, pero no se dan cuenta de que el verdadero objetivo del ataque es que Mahito robe unos objetos malditos de la escuela: dedos de Sukuna y unos fetos de maldición, pero ¿con qué propósito? Por otro lado, Itadori, Fushiguro y Kugisaki son enviados a investigar unos asesinatos causados por maldiciones, lo que está relacionado con la secundaria de Fushiguro y su hermana mayor."  
+    },
+    {
+        "id": 18,
+        "nombre": "Jujutsu Kaisen #8",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n8.jpg",
+        "descripcion": "Toji Fushiguro, el asesino de hechiceros, pone en marcha su plan para matar al Cuerpo de Plasma Celestial. Su formidable fuerza y velocidad le permiten derrotar a Gojo y Geto. Sin embargo, Gojo logra despertar nuevos poderes al borde de la muerte y derrota al padre de Megumi. Las repercusiones de este caso marcan a Geto para siempre, quien decide pelear para crear un mundo formado solo por hechiceros, lo que abre una brecha entre él y Gojo."  
+    },
+    {
+        "id": 19,
+        "nombre": "Jujutsu Kaisen #9",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n9.jpg",
+        "descripcion": "Toji Fushiguro, el asesino de hechiceros, pone en marcha su plan para matar al Cuerpo de Plasma Celestial. Su formidable fuerza y velocidad le permiten derrotar a Gojo y Geto. Sin embargo, Gojo logra despertar nuevos poderes al borde de la muerte y derrota al padre de Megumi. Las repercusiones de este caso marcan a Geto para siempre, quien decide pelear para crear un mundo formado solo por hechiceros, lo que abre una brecha entre él y Gojo."  
+    },
+    {
+        "id": 20,
+        "nombre": "Jujutsu Kaisen #10",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n10.jpg",
+        "descripcion": "Llega el 31 de octubre y Geto y la banda de espíritus malditos echan a andar su plan sobre Shibuya. La multitud que celebraba Halloween es encerrada por una cortina en la estación del tren, y de repente comienzan a clamar por la presencia de Satoru Gojo. Este llega a Shibuya para tratar de salvar a todas esas personas de las maldiciones de Jogo y Hanami mientras que Itadori y los demás hechiceros se quedan en la retaguardia como respaldo."  
+    },
+    {
+        "id": 21,
+        "nombre": "Jujutsu Kaisen #11",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n11.jpg",
+        "descripcion": "Los espíritus malditos atrapan a Gojo en el andén de B5F con incontables rehenes. En medio de la batalla, Geto se aparece ante él y activa el objeto maldito Gokumonkyo para sellarlo. Por otro lado, un aliado inesperado se pone en contacto con Itadori y le comunica el plan de Geto. Itadori logra reunirse con Nanami, Ino y Fushiguro, e idean un plan para derribar la cortina que no les permite ir hacia Gojo. Pero unos hechiceros maléficos se ponen en su camino..."  
+    },
+    {
+        "id": 22,
+        "nombre": "Jujutsu Kaisen #12",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n12.jpg",
+        "descripcion": "Sigue reinando el caos en Shibuya, donde maldiciones y humanos modificados masacran a los civiles. Itadori por fin entra a la estación, donde se topa con Choso, quien lo busca para vengar a sus hermanos, y se desata una pelea espectacular dentro de un baño. Por otro lado, Meimei se abre paso entre hechiceros maléficos y maldiciones para llegar a Geto, y Nanami y Kugisaki se enfrentan al atacante de Ijichi."  
+    },
+    {
+        "id": 23,
+        "nombre": "Jujutsu Kaisen #13",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n13.jpg",
+        "descripcion": "Maki, Nanami y Naobito quedan atrapados en el dominio de Dagon, y están a punto de ser aniquilados por él cuando Fushiguro llega en su ayuda. Pero un invitado inesperado entra también por la puerta que Megumi deja abierta. Por otro lado, Itadori sigue inconsciente, y las gemelas Mimiko y Nanako intentan hacer que trague un dedo para despertar a Sukuna y pedirle un favor. Sin embargo, ¿qué será de Shibuya cuando el Rey de las Maldiciones abra los ojos otra vez?"  
+    },
+    {
+        "id": 24,
+        "nombre": "Jujutsu Kaisen #14",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n14.jpg",
+        "descripcion": "Sukuna es libre por un momento, y sus acciones atroces provocan gravísimos daños en el distrito de Shibuya. Por otro lado, un hechicero maléfico ataca por la espalda a Fushiguro y le inflige una herida fatal, por lo que no le queda otro remedio de usar su as bajo la manga."  
+    },
+    {
+        "id": 25,
+        "nombre": "Jujutsu Kaisen #15",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n15.jpg",
+        "descripcion": "El corazón de Itadori está a punto de romperse por todas las desgracias que le han ocurrido en Shibuya, pero de repente se le une uno de sus más grandes aliados. Entonces la batalla contra Mahito continúa con gran ímpetu, desde los corredores de la Estación de Shibuya hasta las desoladas ruinas de la superficie. ¿Cuál será el desenlace del duelo de estos archienemigos?"  
+    },
+    {
+        "id": 26,
+        "nombre": "Jujutsu Kaisen #16",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n16.jpg",
+        "descripcion": "Itadori se encuentra a merced de Geto, pero llegan inesperados aliados a asistirlo. Sin embargo, Geto libera a sus espíritus malditos en Tokio, los que crean un caos. ¿Cómo se enfrentará Itadori a las repercusiones que tendrán lo acontecido en Shibuya en el mundo de la brujería y en el de los no hechiceros?"  
+    },
+    {
+        "id": 27,
+        "nombre": "Jujutsu Kaisen #16",
+        "precio": 625,
+        "editorial":"paninimanga",
+        "imageUrl": "/mangas/jjk/n16.jpg",
+        "descripcion": "Itadori se encuentra a merced de Geto, pero llegan inesperados aliados a asistirlo. Sin embargo, Geto libera a sus espíritus malditos en Tokio, los que crean un caos. ¿Cómo se enfrentará Itadori a las repercusiones que tendrán lo acontecido en Shibuya en el mundo de la brujería y en el de los no hechiceros?"  
+    },
+    {
+        "id": 28,
+        "nombre": "Slam Dunk #1",
+        "precio": 1200,
+        "editorial":"ivrea",
+        "imageUrl": "/mangas/slamdunk/n1.jpg",
+        "descripcion": "¡La historia de Hanamichi Sakuragi, y cómo llegó a ser un gran basquebolista solo porque le tenía ganas a una amiga! Uno de los spokon claves del género y emblema perpetuo de la Shonen Jump regresa con esta nueva edición recientemente aparecida en Japón que contiene muchísimas más páginas por tomo, mejor separación entre sagas y hasta las viñetitas entre capítulos que se morfaron en la kanzenban. Todo esto sin olvidar las tapas que Inoue dibujó para esta edicion reinterpretando escenas emblemáticas de la serie."  
+    },
+    {
+        "id": 29,
+        "nombre": "Slam Dunk #2",
+        "precio": 1200,
+        "editorial":"ivrea",
+        "imageUrl": "/mangas/slamdunk/n2.jpg",
+        "descripcion": "¡La historia de Hanamichi Sakuragi, y cómo llegó a ser un gran basquebolista solo porque le tenía ganas a una amiga! Uno de los spokon claves del género y emblema perpetuo de la Shonen Jump regresa con esta nueva edición recientemente aparecida en Japón que contiene muchísimas más páginas por tomo, mejor separación entre sagas y hasta las viñetitas entre capítulos que se morfaron en la kanzenban. Todo esto sin olvidar las tapas que Inoue dibujó para esta edicion reinterpretando escenas emblemáticas de la serie."  
+    },
+    {
+        "id": 30,
+        "nombre": "Slam Dunk #3",
+        "precio": 1200,
+        "editorial":"ivrea",
+        "imageUrl": "/mangas/slamdunk/n3.jpg",
+        "descripcion": "¡La historia de Hanamichi Sakuragi, y cómo llegó a ser un gran basquebolista solo porque le tenía ganas a una amiga! Uno de los spokon claves del género y emblema perpetuo de la Shonen Jump regresa con esta nueva edición recientemente aparecida en Japón que contiene muchísimas más páginas por tomo, mejor separación entre sagas y hasta las viñetitas entre capítulos que se morfaron en la kanzenban. Todo esto sin olvidar las tapas que Inoue dibujó para esta edicion reinterpretando escenas emblemáticas de la serie."  
+    },
+    {
+        "id": 31,
+        "nombre": "Slam Dunk #4",
+        "precio": 1200,
+        "editorial":"ivrea",
+        "imageUrl": "/mangas/slamdunk/n4.jpg",
+        "descripcion": "¡La historia de Hanamichi Sakuragi, y cómo llegó a ser un gran basquebolista solo porque le tenía ganas a una amiga! Uno de los spokon claves del género y emblema perpetuo de la Shonen Jump regresa con esta nueva edición recientemente aparecida en Japón que contiene muchísimas más páginas por tomo, mejor separación entre sagas y hasta las viñetitas entre capítulos que se morfaron en la kanzenban. Todo esto sin olvidar las tapas que Inoue dibujó para esta edicion reinterpretando escenas emblemáticas de la serie."  
+    },
+    {
+        "id": 32,
+        "nombre": "Slam Dunk #5",
+        "precio": 1200,
+        "editorial":"ivrea",
+        "imageUrl": "/mangas/slamdunk/n5.jpg",
+        "descripcion": "¡La historia de Hanamichi Sakuragi, y cómo llegó a ser un gran basquebolista solo porque le tenía ganas a una amiga! Uno de los spokon claves del género y emblema perpetuo de la Shonen Jump regresa con esta nueva edición recientemente aparecida en Japón que contiene muchísimas más páginas por tomo, mejor separación entre sagas y hasta las viñetitas entre capítulos que se morfaron en la kanzenban. Todo esto sin olvidar las tapas que Inoue dibujó para esta edicion reinterpretando escenas emblemáticas de la serie."  
+    },
+    {
+        "id": 33,
+        "nombre": "Slam Dunk #6",
+        "precio": 1200,
+        "editorial":"ivrea",
+        "imageUrl": "/mangas/slamdunk/n6.jpg",
+        "descripcion": "¡La historia de Hanamichi Sakuragi, y cómo llegó a ser un gran basquebolista solo porque le tenía ganas a una amiga! Uno de los spokon claves del género y emblema perpetuo de la Shonen Jump regresa con esta nueva edición recientemente aparecida en Japón que contiene muchísimas más páginas por tomo, mejor separación entre sagas y hasta las viñetitas entre capítulos que se morfaron en la kanzenban. Todo esto sin olvidar las tapas que Inoue dibujó para esta edicion reinterpretando escenas emblemáticas de la serie."  
+    },
+    {
+        "id": 34,
+        "nombre": "Slam Dunk #7",
+        "precio": 1200,
+        "editorial":"ivrea",
+        "imageUrl": "/mangas/slamdunk/n7.jpg",
+        "descripcion": "¡La historia de Hanamichi Sakuragi, y cómo llegó a ser un gran basquebolista solo porque le tenía ganas a una amiga! Uno de los spokon claves del género y emblema perpetuo de la Shonen Jump regresa con esta nueva edición recientemente aparecida en Japón que contiene muchísimas más páginas por tomo, mejor separación entre sagas y hasta las viñetitas entre capítulos que se morfaron en la kanzenban. Todo esto sin olvidar las tapas que Inoue dibujó para esta edicion reinterpretando escenas emblemáticas de la serie."  
+    },
+    {
+        "id": 35,
+        "nombre": "Slam Dunk #8",
+        "precio": 1200,
+        "editorial":"ivrea",
+        "imageUrl": "/mangas/slamdunk/n8.jpg",
+        "descripcion": "¡La historia de Hanamichi Sakuragi, y cómo llegó a ser un gran basquebolista solo porque le tenía ganas a una amiga! Uno de los spokon claves del género y emblema perpetuo de la Shonen Jump regresa con esta nueva edición recientemente aparecida en Japón que contiene muchísimas más páginas por tomo, mejor separación entre sagas y hasta las viñetitas entre capítulos que se morfaron en la kanzenban. Todo esto sin olvidar las tapas que Inoue dibujó para esta edicion reinterpretando escenas emblemáticas de la serie."  
+    },
+    {
+        "id": 36,
+        "nombre": "La espada del inmortal #1",
+        "precio": 1300,
+        "editorial":"ovnipress",
+        "imageUrl": "/mangas/inmortal/n1.jpg",
+        "descripcion": "Ambientada durante la era Edo de Japón, La Espada del Inmortal nos narra las aventuras de Manji, un guerrero samurái que, gracias al don que le fuera concedido por una monja anciana de más de 800 años, se ha vuelto inmortal. Sin embargo, el guerrero conocido como “el asesino de los cien” se ve obligado a aceptar una misión que podría acabar con su inmortalidad: deberá matar a mil hombres malvados en una cruzada por la redención de su alma."  
+    },
+    {
+        "id": 37,
+        "nombre": "La espada del inmortal #2",
+        "precio": 1400,
+        "editorial":"ovnipress",
+        "imageUrl": "/mangas/inmortal/n2.jpg",
+        "descripcion": "Rin continúa con su entrenamiento en su búsqueda por vengar la muerte de sus padres con la ayuda de Manji, el samurái inmortal. Sin embargo, ella aún es muy débil y no tiene la destreza suficiente con la espada, mientras que los enemigos continúan apareciendo y son cada vez más letales... En medio del camino, Rin salva a un ñiño que estaba siendo atacado cruelmente, ¡pero al acompañarlo hasta su casa descubre que el padre del ñiño es uno de los asesinos que mataron a su padre y violaron a su madre!"  
+    },
+    {
+        "id": 38,
+        "nombre": "La espada del inmortal #3",
+        "precio": 1275,
+        "editorial":"ovnipress",
+        "imageUrl": "/mangas/inmortal/n3.jpg",
+        "descripcion": "Rin continúa con su entrenamiento en su búsqueda por vengar la muerte de sus padres con la ayuda de Manji, el samurái inmortal. Sin embargo, ella aún es muy débil y no tiene la destreza suficiente con la espada, mientras que los enemigos continúan apareciendo y son cada vez más letales. En esta oportunidad Rin y Manji quedan en medio de una guerra de organizaciones, sin saber a quién apoyar o a quién enfrentarse, sin embargo deciden aliarse con los recién llegados, quienes parecen tener las mismas motivaciones que ellos..."  
+    },
+    {
+        "id": 39,
+        "nombre": "La espada del inmortal #4",
+        "precio": 1400,
+        "editorial":"ovnipress",
+        "imageUrl": "/mangas/inmortal/n4.jpg",
+        "descripcion": "Rin continúa con su entrenamiento en su búsqueda por vengar la muerte de sus padres con la ayuda de Manji, el samurái inmortal. Sin embargo, ella aún es muy débil y no tiene la destreza suficiente con la espada, mientras que los enemigos continúan apareciendo. Finalmente Manji decide ayudar a Rin en su cruzada, pero ella no logra darse cuenta y se escapa con el objetivo de llegar a Kaga. En medio de todo esto, el asesinato de dos farmacéuticos parece involucrar a Rin en una emboscada, pero esto es solo el principio."  
+    },
+    {
+        "id": 40,
+        "nombre": "La espada del inmortal #5",
+        "precio": 1150,
+        "editorial":"ovnipress",
+        "imageUrl": "/mangas/inmortal/n5.jpg",
+        "descripcion": "Rin continúa con su entrenamiento en su búsqueda por vengar la muerte de sus padres. Pero aún no tiene la destreza suficiente con la espada, mientras que sus enemigos son cada vez más letales. Después de su enfrentamiento contra los tres asesinos enviados por el Ittouryuu, Manji debe recuperarse de haber sido cortado en pedazos. Rin, separada de su protector, avanza en su búsqueda de Anotsu, quien está decidido a unir un nuevo dojo a su escuela rebelde. Las garras de Ittouryuu se cierran sobre todos por igual."  
+    },
+    {
+        "id": 41,
+        "nombre": "La espada del inmortal #6",
+        "precio": 1275,
+        "editorial":"ovnipress",
+        "imageUrl": "/mangas/inmortal/n6.jpg",
+        "descripcion": "Aunque comenzaron su viaje juntos, los caminos de Rin y Manji se separaron abruptamente. Rin avanza sin suerte en su persecución de venganza. Manji se reencuentra con Magatsu Taito y un viejo enemigo despiadado. Mientras tanto, el objetivo de Anotsu choca con la cruel realidad. La acción se acelera hasta llegar a un punto crítico."  
+    }
+]
+
+       

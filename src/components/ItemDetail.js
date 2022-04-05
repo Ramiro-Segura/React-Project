@@ -7,7 +7,7 @@ import { contexto } from "../context/CartContext"
 
 const ItemDetail = ({item}) => {
     const { addItem } = useContext(contexto);
-    const [setSeleccionado] = useState(false)
+    const [seleccionado,setSeleccionado] = useState(false)
 
     const onAdd = (cant) => {
         setSeleccionado(cant);        
@@ -15,20 +15,18 @@ const ItemDetail = ({item}) => {
     }
     return (
         <article id='descripcion'>
-            <img src={item.image} alt="" />
+            <img src={item.imageUrl} alt="" />
             <div>
-                <h3>{item.title}</h3>
-                <p>${item.price}</p>
-                <p>{item.description}</p>
+                <h2>{item.nombre}</h2>
+                <h3>${item.precio}</h3>
+                <p>{item.descripcion}</p>
                 <ItemCount stock={10} initial={1} onAdd={onAdd}/>
                 <div className='ir__al__carrito'>
-                    <Link to="/carrito">
+                    <Link to="/carrito" className='link'>
                         Ir al carrito
-                        <span className="material-icons">
-                            shopping_cart
-                        </span>
                     </Link>
                 </div>
+                <Link to="/" className='link'>Home</Link>
             </div>
         </article>
     )

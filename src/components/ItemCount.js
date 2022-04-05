@@ -27,11 +27,12 @@ const Contador = ({initial, stock,onAdd}) => {
     }
     
     return (
-        <div id="botones">
+        <div>
             <p>Cantidad seleccionada: {estado}</p>
-            <button onClick={btnSumar}>Sumar cantidad</button>
-            <button onClick={btnRestar}>Restar cantidad</button>
-            <button onClick={btnRestablecer}>Restablecer cantidad</button>
+            <button onClick={btnSumar} className="material-icons md-36">add</button>
+            <button onClick={btnRestar} className="material-icons md-36">remove</button>
+            <button onClick={btnRestablecer} className="material-icons md-36">clear</button>
+            <hr/>
             <button onClick={btnAgregarAlCarrito}>Agregar al carrito</button>
         </div>
     )
