@@ -11,27 +11,24 @@ const ItemDetailContainer = () => {
   const [loading, setLoading] = useState(true);
   const {idProducto} = useParams()
 
-
   useEffect(()=>{
-
     const productosCollection = collection(db, "products")
     const filtro = query(productosCollection, where("id", "==", Number(idProducto)))
     const pedido = getDocs(filtro)
 
     pedido
-      .then(res => setItem(res.docs[0].data()))
-      .catch(() => toast.error("Error al cargar los productos"))
-      .finally(() => setLoading(false))
+    .then(res => setItem(res.docs[0].data()))
+    .catch(() => toast.error("Error al cargar los productos"))
+    .finally(() => setLoading(false))
 
   },[idProducto])
 
   if(loading){
-    return <h1>Cargando...</h1>
+    return<h1>Cargando...</h1>
   }else{
     return (
       <ItemDetail item={item}/>
     )
   }
 }
-
 export default ItemDetailContainer

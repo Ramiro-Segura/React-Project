@@ -1,8 +1,9 @@
 import {useCallback, useState} from 'react';
 import TestList from './TestList';
+import { Button, Modal } from 'react-bootstrap';
+import { toast } from 'react-toastify';
 
 export const TestContainer = () => {
-
     const [nombre, setNombre] = useState("")
     const [email, setEmail] = useState ("")
     const [telefono, setTelefono] = useState ("")
@@ -19,14 +20,18 @@ export const TestContainer = () => {
         setNombre("")
         setEmail("")
         setTelefono("")
+        toast.success("guardamos tus datos!",{autoClose: 1000,
+            closeOnClick: false})
     }
 
     const handleChangeNombre = (e) => {
         setNombre(e.target.value)
     }
+
     const handleChangeEmail = (e) => {
         setEmail(e.target.value)
     }
+
     const handleChangeTelefono = (e) => {
         setTelefono(e.target.value)
     }
@@ -37,15 +42,37 @@ export const TestContainer = () => {
 
     const borrarUsuarioMemorizada = useCallback(borrarUsuario,[usuarios])
 
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return (
-        <div>
-            <form>
-            <input type="text" onChange={handleChangeNombre} value={nombre}/>
-            <input type="text" onChange={handleChangeEmail} value={email}/>
-            <input type="text" onChange={handleChangeTelefono} value={telefono}/>
-            </form>
-            <button onClick={handleClick}>Agregar</button>
+        <>
+            <span id='boton-usuario' className='material-icons md-48' variant="primary" onClick={handleShow}>
+                account_circle
+            </span>
+            <Modal id='modal' show={show} onHide={handleClose}>
+                <Modal.Header className='modal__header__footer' closeButton>
+                    <Modal.Title>Rellene los siguientes datos</Modal.Title>
+                </Modal.Header>
+                <Modal.Body id='estilo'>
+                    Nombre
+                    <input type="text" onChange={handleChangeNombre} value={nombre}/>
+                    Email
+                    <input type="text" name='email' onChange={handleChangeEmail} value={email}/>
+                    N° Celular
+                    <input type="text" name='number' onChange={handleChangeTelefono} value={telefono}/>
+                </Modal.Body>
+                <Modal.Footer className='modal__header__footer'>
+                    <Button variant="primary" onClick={handleClick}>
+                        Guardar
+                    </Button>
+                    <Button variant="secondary" onClick={handleClose}>
+                        Cerrar
+                    </Button>
+                </Modal.Footer>
+            </Modal>
             <TestList usuarios={usuarios} borrarUsuario={borrarUsuarioMemorizada}/>
-        </div>
+        </>
     )
 }

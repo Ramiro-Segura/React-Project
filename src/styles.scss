@@ -15,7 +15,7 @@ body,
     min-height: 100vh;
     font-family: 'Oswald', sans-serif;
 }
-.titulo{
+.titulo {
      margin-left: 15px;
     font-family: 'Anton', sans-serif;
     font-size: 50px;
@@ -24,19 +24,23 @@ a {
     text-decoration: none;
     color: black;
 }
-.link{
+.link {
     text-decoration: none;
     color: #17B169;
     font-size: 20px;
 }
-span{
+span {
     padding-left: 10px;
 }
+
 .material-icons.md-28 { 
     font-size: 36px;
     margin-right: 10px;
 }
 .material-icons.md-36 { 
+    margin-bottom: 20px;
+    margin-top: 7px;
+    padding: 5px;
     font-size: 36px;
     margin-right: 10px;
 }
@@ -45,6 +49,7 @@ span{
     margin-bottom: 15px;
     margin-right: 10px;
 }
+
 
 #layout-header {
     font-family: 'Anton', sans-serif;
@@ -62,20 +67,7 @@ span{
         text-decoration: none;
     }
 }
-
-
-.seccion__footer {
-    font-family: 'Anton', sans-serif;
-    margin-top: auto;
-    width: 100%;
-    font-weight: 500;
-    font-size: 15px;
-    padding: 1em 0;
-    background-color: #17B169;;
-    color: #fff;
-    text-align: center;
-}
-
+ 
 .productos {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -123,19 +115,19 @@ span{
         "imagen titulo"
         "descripcion descripcion";
     img {
+        margin-top: 59px;
         object-fit: cover;
         margin-right: 50px;
-        margin-left: 70px;
+        margin-left: 75px;
         display: flex;
         justify-content: center;
         align-items: center;
         grid-area: imagen;
-        height: 500px;
+        height: 510px;
         width: auto;
         background-color: #1DB954;
         font-size: 1rem;
     }
-      
     margin: 2rem;
     h2,h3 {
         font-weight: 800;
@@ -146,11 +138,8 @@ span{
             font-weight: 800;
             margin-top: 1rem;
             
-        }
-    
-   
+    }
 }
-
 button {
     padding: 7px;
     font-size: 12px;
@@ -179,34 +168,128 @@ button {
     transform: translateY(-1px);
    }
 
-.precios{
-    margin-top: 15px;
+.precios {
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 3;
     margin-bottom: 15px;
     padding: 15px;
     color: solid #000;
     font-size: 18px;
     font-weight: 900;
     letter-spacing: 2px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
 }
-#carrito{
+
+.alinear {
+    text-align: center;
+    align-items: center;
+}
+
+#boton-usuario {
+    color: #004526;
+    transition: all .5s;
+}
+#boton-usuario:hover {
+    cursor: pointer;
+}
+#estilo {
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    display: grid;
+}
+
+.mayusculas {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+#modal {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    input {
+        border-radius: 3px;
+    }
+    button {
+        padding: 7px;
+        font-size: 18px;
+
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        color: #000;
+        background-color: #ACE1AF;
+        border: none;
+        border-radius: 65px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+    }
+    button:hover {
+        border-radius: 5px;
+        background-color: #004526;
+        box-shadow: 0px 15px 20px rgba(203, 224, 80, 0.4);
+        color: #fff;
+        transform: translateY(-3px);
+       }
+       
+       button:active {
+           
+        transform: translateY(-1px);
+       }
+}
+.modal__header__footer {
+    color: #fff;
+    background-color: #17B169;
+}
+#carrito {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
     img {
-        height: 360px;
+        height: 250px;
         margin-bottom: 5px;
     }
 }
-.ir__al__carrito{
+.ir__al__carrito {
     margin-top: 20px;
     font-weight: 800;
     font-size: 23px;
 }
 
-.ir__al__home{
+.ir__al__home {
+    text-align: center;
+    margin-left: 18px;
     a{
         font-size: 20px;
         font-weight: 800;
     }  
 }
-.subtotal{
+.subtotal {
     font-size: 24px;
     font-weight: 800;
+}
+
+.finalizar {
+    border-radius: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.seccion__footer {
+    font-family: 'Anton', sans-serif;
+    margin-top: auto;
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 1em 0;
+    background-color: #17B169;;
+    color: #fff;
+    text-align: center;
 }

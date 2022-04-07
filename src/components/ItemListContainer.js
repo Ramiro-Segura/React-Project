@@ -12,32 +12,24 @@ const ItemListContainer = () => {
   const {idEditorial} = useParams()
   
   useEffect(() => {
-     
-      if(!idEditorial){
+    const productosCollection = collection(db, "products")
 
-          const productosCollection = collection(db, "products")
-          const pedido = getDocs(productosCollection)
-  
-          pedido
-              .then(res => setProductos(res.docs.map(doc => doc.data())))
-              .catch(() => toast.error("Error al cargar los productos"))
-              .finally(() => setLoading(false))
-
-      }else{
-
-          const productosCollection = collection(db, "products")
-          const filtro = query(productosCollection,where("editorial","==",idEditorial))
-          const pedido = getDocs(filtro)
-
-          pedido
-              .then(res => setProductos(res.docs.map(doc => doc.data())))
-              .catch(() => toast.error("Error al cargar los productos"))
-              .finally(() => setLoading(false))
-
-      }
+    let pedido   
+    if(idEditorial){
+        const filtro = where("editorial", "==", idEditorial)
+        const consultaProductos = query(productosCollection,filtro)
+        pedido= getDocs(consultaProductos)
+    
+    }else{
+        pedido = getDocs(productosCollection)
+    }
+    pedido
+    .then(res => setProductos(res.docs.map(doc => doc.data())))
+    .catch(() => toast.error("Error al cargar los productos"))
+    .finally(() => setLoading(false))
 
   },[idEditorial])
-
+  
   if(loading){
       return <h1>Cargando...</h1>
   }else{

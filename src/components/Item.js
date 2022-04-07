@@ -2,14 +2,13 @@ import { Link } from "react-router-dom"
 import { Container } from "react-bootstrap"
 
 const Item = ({ producto}) => {
-    return (
+    return(
         <Container>
             <article>
-                <img src={producto.imageUrl}/>
+                <Link to={`/producto/${producto.id}`} ><img src={producto.imageUrl}/></Link>
                 <hr/>
                 <h2>{producto.nombre}</h2>
                 <h5>${producto.precio}</h5>
-               <Link className="ver-detalle" to={`/producto/${producto.id}`}><button>Ver detalle</button></Link>
             </article>
         </Container>
     )

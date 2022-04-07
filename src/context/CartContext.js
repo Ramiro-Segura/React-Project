@@ -59,7 +59,6 @@ const MiProvider = ({ children }) => {
         borrarDelCarrito,
         limpiarCarrito
     }
-
     return (
         <Provider value={valorDelContexto}>
             {children}
