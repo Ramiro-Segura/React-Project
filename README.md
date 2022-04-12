@@ -1,10 +1,14 @@
 # Nak Mangas
 
 ## Descripcion:
-Es una SPA que se trata de un e-commerce sobre ventas de mangas. Que esta constituido por un catálogo con sus respectivos productos, con sus categorías, detalles y además cuenta con un carrito de compras. Para las notificaciones/alertas se uso `Toastify`  .Por el lado del backend la aplicación esta vinculada a `Firebase` para poder elegir los productos y ver sus detalles, agregarlos al carrito y por último simular la compra. 
+Es un proyecto de una SPA que se trata de un e-commerce de mangas. Que esta constituido por un catálogo con sus respectivos productos, categorías y carrito de compras. Por el lado del backend la aplicación esta conectada a `Firebase` para poder ver los productos, seleccionarlos, ver sus detalles, agregarlos al carrito y por último simular una compra de los mismos. Ademas la aplicación cuenta con otras funciones que son: 
+* Aumentar/disminuir y/o restablecer la cantidad de un producto que se este viendo.
+* Vaciar por completo el carrito o eliminar un artículo en específico.
+* Ventana modal ubicada en el carrito de compras para que el usuario complete sus datos, siempre y cuando haya al menos un producto.
+* Alertas/notificaciones cuando se realizan ciertas acciones en la app.
+
 
 ## Uso / instalación: 
-
 1. git clone: https://github.com/Ramiro-Segura/React-Project.git
 2. cd React-Project
 3. npm install
