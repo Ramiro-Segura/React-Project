@@ -1,10 +1,12 @@
 import { useContext } from "react"
-import { contexto } from "../context/CartContext"
+import { contexto } from "../../context/CartContext"
+
 import { Link } from 'react-router-dom';
 import { Container} from "react-bootstrap"
 import { toast } from "react-toastify";
-import { db } from "../Firebase";
-import {TestContainer} from "./TestContainer"
+import {TestContainer} from "../test/TestContainer"
+
+import { db } from "../../firebase/Firebase";
 import { collection, serverTimestamp, addDoc} from "firebase/firestore";
 
 const Carrito = () => {
@@ -27,7 +29,8 @@ const Carrito = () => {
         const pedido = addDoc(ordenesCollection, orden)
         pedido
         .then(res=>{
-            toast.success("Finalizo la compra! " + "Id : " + res.id, {autoClose: 5000,closeOnClick: false})
+            toast.success("Gracias por tu compra! por favor copia el n° del " + "ID : " + res.id, {autoClose: 6000,closeOnClick: false})
+            limpiarCarrito()
         })
         .catch(error=>{
             toast.error("hubo un error")
@@ -35,9 +38,9 @@ const Carrito = () => {
     }
     return(
         <Container>
+            <TestContainer/>
             <hr/>
             <div id="carrito">
-                <TestContainer/>
                 <h1>Carrito</h1>
                 {carrito.map(producto => (
                     <>

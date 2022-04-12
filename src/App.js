@@ -1,8 +1,8 @@
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import ItemListContainer from "./components/ItemListContainer"
-import ItemDetailContainer from "./components/ItemDetailContainer"
-import Carrito from "./components/Carrito";
+import NavBar from "./components/body/NavBar";
+import Footer from "./components/body/Footer";
+import ItemListContainer from "./components/items/ItemListContainer"
+import ItemDetailContainer from "./components/items/ItemDetailContainer"
+import Carrito from "./components/cart/Carrito";
 import MiProvider from "./context/CartContext";
 
 import { BrowserRouter } from "react-router-dom";

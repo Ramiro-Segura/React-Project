@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+
 import { toast } from "react-toastify";
 import ItemDetail from "./ItemDetail";
-import { db } from "../Firebase"
+
+import { db } from "../../firebase/Firebase";
 import { collection, query, where, getDocs } from "firebase/firestore"
 
 const ItemDetailContainer = () => {

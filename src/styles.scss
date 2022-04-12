@@ -38,6 +38,7 @@ span {
     margin-right: 10px;
 }
 .material-icons.md-36 { 
+    border-radius: 8px;
     margin-bottom: 20px;
     margin-top: 7px;
     padding: 5px;
@@ -45,6 +46,7 @@ span {
     margin-right: 10px;
 }
 .material-icons.md-48 { 
+    border-radius: 8px;
     font-size: 40px;
     margin-bottom: 15px;
     margin-right: 10px;
@@ -164,7 +166,6 @@ button {
    }
    
    button:active {
-       
     transform: translateY(-1px);
    }
 
@@ -191,6 +192,7 @@ button {
 #boton-usuario {
     color: #004526;
     transition: all .5s;
+    margin-left: 48%;
 }
 #boton-usuario:hover {
     cursor: pointer;

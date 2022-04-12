@@ -47,7 +47,6 @@ const MiProvider = ({ children }) => {
     }
     
     const limpiarCarrito = () => {
-        toast.warn("No hay producto(s) en el carrito",{position: "top-right",autoClose: 1000,})
         setCarrito([])
     }
 

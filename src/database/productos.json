@@ -86,14 +86,14 @@
         "precio": 625,
         "editorial":"paninimanga",
         "imageUrl": "/mangas/jjk/n1.jpg",
-        "descripcion": "Yuji Itadori, es un estudiante de preparatoria que tiene una fuerza y capacidad física excepcionales, y que tiene el hábito de visitar a su abuelo enfermo, internado en un hospital. Sin embargo, un día se rompe el sello de un ''objeto maldito'' que dormía en su escuela, y empiezan a aparecer monstruos. Yuji se mete en la escuela para rescatar a sus compañeros atrapados, pero..."  
+        "descripcion": "Yuji Itadori, es un estudiante de preparatoria que tiene una fuerza y capacidad física excepcionales, y que tiene el hábito de visitar a su abuelo enfermo, internado en un hospital. Sin embargo, un día se rompe el sello de un  ''objeto maldito''  que dormía en su escuela, y empiezan a aparecer monstruos. Yuji se mete en la escuela para rescatar a sus compañeros atrapados, pero..."  
     },
     {
         "id": 12,
         "nombre": "Jujutsu Kaisen #2",
         "precio": 625,
         "editorial":"paninimanga",
-        "imageUrl": "/mangas/jjk/n2.png",
+        "imageUrl": "/mangas/jjk/n2.jpg",
         "descripcion": "En medio de la misión, Yuji cambia de lugar con Sukuna, quien derrota con facilidad a la maldición de grado especial. Sin embargo, este se sale de control y ataca a Fushiguro. Sukuna se arranca él mismo el corazón para que Yuji no pueda regresar, pero aun así vuelve para salvar a Fushiguro, y muere. Gojo cree que esa misión fue un plan de los altos mandos para deshacerse de una vez de Sukuna. De vuelta en la escuela, los de segundo invitan a Fushiguro y Kugisaki a un evento con los del plantel de Kioto, en parte para que se sobrepongan del fallecimiento de Yuji. En otro lado, otras maldiciones de grado especial comienzan a conspirar contra Gojo."  
     },
     {
@@ -210,11 +210,11 @@
     },
     {
         "id": 27,
-        "nombre": "Jujutsu Kaisen #16",
+        "nombre": "Jujutsu Kaisen #17",
         "precio": 625,
         "editorial":"paninimanga",
-        "imageUrl": "/mangas/jjk/n16.jpg",
-        "descripcion": "Itadori se encuentra a merced de Geto, pero llegan inesperados aliados a asistirlo. Sin embargo, Geto libera a sus espíritus malditos en Tokio, los que crean un caos. ¿Cómo se enfrentará Itadori a las repercusiones que tendrán lo acontecido en Shibuya en el mundo de la brujería y en el de los no hechiceros?"  
+        "imageUrl": "/mangas/jjk/n17.jpg",
+        "descripcion": "Okkotsu aparenta haber ejecutado a Itadori para que Naoya lleve la noticia a los altos mandos. Okkotsu e Itadori se reúnen con Fushiguro y Maki, y visitan al señor Tengen en su santuario para obtener información sobre Noritoshi Kamo y cómo detener su plan del ''Viaje a la Extinción''. Después, Maki se dirige a la mansión Zenin para conseguir armas, pero no puede creer lo que ve ahí"  
     },
     {
         "id": 28,
@@ -327,6 +327,30 @@
         "editorial":"ovnipress",
         "imageUrl": "/mangas/inmortal/n6.jpg",
         "descripcion": "Aunque comenzaron su viaje juntos, los caminos de Rin y Manji se separaron abruptamente. Rin avanza sin suerte en su persecución de venganza. Manji se reencuentra con Magatsu Taito y un viejo enemigo despiadado. Mientras tanto, el objetivo de Anotsu choca con la cruel realidad. La acción se acelera hasta llegar a un punto crítico."  
+    },
+    {
+        "id":42,
+        "nombre": "Blue Lock #1",
+        "precio": 600,
+        "editorial": "ivrea",
+        "imageUrl": "/mangas/bluelock/n1.jpg",
+        "descripcion": "La eliminación del seleccionado japonés del Mundial de 2018 impulsa a la Asociación de Fútbol de Japón a iniciar un programa para captar jugadores de los equipos de escuelas secundarias y prepararlos para la próxima Copa del Mundo en 2022. Pero no de la forma más habitual. El objetivo es destruir la mentalidad perdedora de los futbolistas japoneses. Para eso, introduce un nuevo y radical régimen de entrenamiento: aislar a 300 jóvenes delanteros en una escuela/prisión llamada “Blue Lock” para que entrenen rigurosamente y, así, producir al delantero más egoísta del mundo."
+    },
+    {
+        "id":43,
+        "nombre": "Blue Lock #2",
+        "precio": 600,
+        "editorial": "ivrea",
+        "imageUrl": "/mangas/bluelock/n2.jpg",
+        "descripcion": "La eliminación del seleccionado japonés del Mundial de 2018 impulsa a la Asociación de Fútbol de Japón a iniciar un programa para captar jugadores de los equipos de escuelas secundarias y prepararlos para la próxima Copa del Mundo en 2022. Pero no de la forma más habitual. El objetivo es destruir la mentalidad perdedora de los futbolistas japoneses. Para eso, introduce un nuevo y radical régimen de entrenamiento: aislar a 300 jóvenes delanteros en una escuela/prisión llamada “Blue Lock” para que entrenen rigurosamente y, así, producir al delantero más egoísta del mundo."
+    },
+    {
+        "id":44,
+        "nombre": "Blue Lock #3",
+        "precio": 600,
+        "editorial": "ivrea",
+        "imageUrl": "/mangas/bluelock/n3.jpg",
+        "descripcion": "La eliminación del seleccionado japonés del Mundial de 2018 impulsa a la Asociación de Fútbol de Japón a iniciar un programa para captar jugadores de los equipos de escuelas secundarias y prepararlos para la próxima Copa del Mundo en 2022. Pero no de la forma más habitual. El objetivo es destruir la mentalidad perdedora de los futbolistas japoneses. Para eso, introduce un nuevo y radical régimen de entrenamiento: aislar a 300 jóvenes delanteros en una escuela/prisión llamada “Blue Lock” para que entrenen rigurosamente y, así, producir al delantero más egoísta del mundo."
     }
 ]
 

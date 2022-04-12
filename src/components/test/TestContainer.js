@@ -20,7 +20,7 @@ export const TestContainer = () => {
         setNombre("")
         setEmail("")
         setTelefono("")
-        toast.success("guardamos tus datos!",{autoClose: 1000,
+        toast.success("usuario creado!",{autoClose: 1000,
             closeOnClick: false})
     }
 
@@ -48,12 +48,12 @@ export const TestContainer = () => {
     const handleShow = () => setShow(true);
     return (
         <>
-            <span id='boton-usuario' className='material-icons md-48' variant="primary" onClick={handleShow}>
+            <button id='boton-usuario' className='material-icons md-48' variant="primary" onClick={handleShow}>
                 account_circle
-            </span>
+            </button>
             <Modal id='modal' show={show} onHide={handleClose}>
                 <Modal.Header className='modal__header__footer' closeButton>
-                    <Modal.Title>Rellene los siguientes datos</Modal.Title>
+                    <Modal.Title>Complete los siguientes datos</Modal.Title>
                 </Modal.Header>
                 <Modal.Body id='estilo'>
                     Nombre

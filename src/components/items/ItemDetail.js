@@ -1,8 +1,10 @@
 import ItemCount from './ItemCount';
+
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+
 import React, {useContext} from 'react';
-import { contexto } from "../context/CartContext"
+import { contexto } from "../../context/CartContext"
 
 const ItemDetail = ({item}) => {
     const { addItem } = useContext(contexto);
@@ -25,7 +27,9 @@ const ItemDetail = ({item}) => {
                 <ItemCount stock={7} initial={1} onAdd={onAdd}/>
                 <div className='ir__al__carrito'>
                     <Link to="/carrito" className='link'>
-                        Ir al carrito
+                    <button class="material-icons md-48">
+                        shopping_cart_checkout
+                    </button>
                     </Link>
                 </div>
             </div>
