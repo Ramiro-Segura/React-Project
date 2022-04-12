@@ -11,15 +11,15 @@ Es una SPA que se trata de un e-commerce sobre ventas de mangas. Que esta consti
 4. npm start
 
 ## Tecnologías usadas:
-*React 17+ (interfaz del proyecto)
-*React-Router-DOM 6+ (routing)
-*React Bootstrap (modal usuario y container)
-*React Toastify 8.2.0+ (alertas/notificaciones)
-*Sass (estilos/diseño)
-*Firebase (backend productos)
-*Material UI (íconos para botones)
+* React 17+ (interfaz del proyecto)
+* React-Router-DOM 6+ (routing)
+* React Bootstrap (modal usuario y container)
+* React Toastify 8.2.0+ (alertas/notificaciones)
+* Sass (estilos/diseño)
+* Firebase (backend productos)
+* Material UI (íconos para botones)
 
 ## Simulación de compra
-*Para ver cómo funciona el proyecto en vivo se puede visualizar mediante el siguiente link: 
+ Para ver cómo funciona el proyecto en vivo se puede visualizar mediante el siguiente link: 
 
-*[VideoProyecto](https://drive.google.com/file/d/1_Gj1XHmhkWSZRHRPyhnVip7wphifJkRl/view?usp=sharing)
+* [VideoProyecto](https://drive.google.com/file/d/1_Gj1XHmhkWSZRHRPyhnVip7wphifJkRl/view?usp=sharing)
